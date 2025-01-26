@@ -1,10 +1,21 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
+import Card from "./components/Card";
 
 const Home = () => {
   return (
     <Layout>
-      <h1>Hello i'm from home</h1>
+      <div className="flex flex-wrap justify-center gap-4 mt-3">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </Layout>
   );
 };

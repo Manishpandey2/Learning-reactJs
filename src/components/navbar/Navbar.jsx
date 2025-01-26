@@ -16,7 +16,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-32" />
         </a>
         <a href="#" className="hidden max-sm:block">
-          <img src={logo} alt="logo" className="w-8" />
+          <img src={logo} alt="logo" className="w-16 h-16" />
         </a>
 
         {/* Collapsible Menu */}
